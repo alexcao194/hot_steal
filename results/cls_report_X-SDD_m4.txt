@@ -1,0 +1,15 @@
+X-SDD – 4. ResNet18 tinh chỉnh + tăng cường dữ liệu
+
+                        precision    recall  f1-score   support
+
+  Vết in trục cán tinh      1.000     1.000     1.000        41
+           Tro vảy sắt      1.000     0.958     0.979        24
+     Vảy ôxit (hệ tấm)      0.929     1.000     0.963        13
+Vảy ôxit (do nhiệt độ)      1.000     1.000     1.000        41
+            Vảy sắt đỏ      1.000     1.000     1.000        79
+           Tạp chất xỉ      1.000     1.000     1.000        48
+       Vết xước bề mặt      1.000     1.000     1.000        27
+
+              accuracy                          0.996       273
+             macro avg      0.990     0.994     0.992       273
+          weighted avg      0.997     0.996     0.996       273

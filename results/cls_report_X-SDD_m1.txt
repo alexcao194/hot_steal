@@ -1,0 +1,15 @@
+X-SDD – 1. GLCM+LBP+HOG + SVM (cơ sở)
+
+                        precision    recall  f1-score   support
+
+  Vết in trục cán tinh      0.925     0.902     0.914        41
+           Tro vảy sắt      0.864     0.792     0.826        24
+     Vảy ôxit (hệ tấm)      0.889     0.615     0.727        13
+Vảy ôxit (do nhiệt độ)      0.951     0.951     0.951        41
+            Vảy sắt đỏ      0.865     0.975     0.917        79
+           Tạp chất xỉ      0.788     0.854     0.820        48
+       Vết xước bề mặt      1.000     0.741     0.851        27
+
+              accuracy                          0.883       273
+             macro avg      0.897     0.833     0.858       273
+          weighted avg      0.888     0.883     0.881       273

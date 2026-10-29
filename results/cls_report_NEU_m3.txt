@@ -1,0 +1,14 @@
+NEU – 3. ResNet50 (ImageNet, cố định) + LogReg
+
+                                  precision    recall  f1-score   support
+
+          Rạn nứt mạng (crazing)      1.000     1.000     1.000        30
+            Tạp chất (inclusion)      1.000     1.000     1.000        30
+            Mảng loang (patches)      1.000     1.000     1.000        30
+      Rỗ bề mặt (pitted surface)      1.000     1.000     1.000        30
+Vảy cán ép vào (rolled-in scale)      1.000     1.000     1.000        30
+            Vết xước (scratches)      1.000     1.000     1.000        30
+
+                        accuracy                          1.000       180
+                       macro avg      1.000     1.000     1.000       180
+                    weighted avg      1.000     1.000     1.000       180

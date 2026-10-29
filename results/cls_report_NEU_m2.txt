@@ -1,0 +1,14 @@
+NEU – 2. GLCM+LBP+HOG + kNN
+
+                                  precision    recall  f1-score   support
+
+          Rạn nứt mạng (crazing)      0.789     1.000     0.882        30
+            Tạp chất (inclusion)      0.964     0.900     0.931        30
+            Mảng loang (patches)      1.000     0.733     0.846        30
+      Rỗ bề mặt (pitted surface)      0.875     0.933     0.903        30
+Vảy cán ép vào (rolled-in scale)      0.882     1.000     0.938        30
+            Vết xước (scratches)      0.962     0.833     0.893        30
+
+                        accuracy                          0.900       180
+                       macro avg      0.912     0.900     0.899       180
+                    weighted avg      0.912     0.900     0.899       180

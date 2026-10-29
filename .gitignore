@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Dữ liệu tải bằng src/download_data.sh
+data/
+# Sản phẩm trung gian khi chạy lại
+results/yolo_runs/
+results/cache/
+results/log_*.txt
+/yolov8*.pt

@@ -1,0 +1,14 @@
+NEU – 1. GLCM+LBP+HOG + SVM (cơ sở)
+
+                                  precision    recall  f1-score   support
+
+          Rạn nứt mạng (crazing)      1.000     0.967     0.983        30
+            Tạp chất (inclusion)      0.933     0.933     0.933        30
+            Mảng loang (patches)      0.967     0.967     0.967        30
+      Rỗ bề mặt (pitted surface)      0.967     0.967     0.967        30
+Vảy cán ép vào (rolled-in scale)      1.000     1.000     1.000        30
+            Vết xước (scratches)      0.935     0.967     0.951        30
+
+                        accuracy                          0.967       180
+                       macro avg      0.967     0.967     0.967       180
+                    weighted avg      0.967     0.967     0.967       180

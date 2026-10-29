@@ -1,0 +1,34 @@
+điều_kiện,phương_án,accuracy
+Ảnh gốc,GLCM+LBP+HOG + SVM (cơ sở),0.972
+Ảnh gốc,ResNet18 tinh chỉnh,1.000
+Ảnh gốc,ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000
+Mờ chuyển động (9px),GLCM+LBP+HOG + SVM (cơ sở),0.172
+Mờ chuyển động (9px),ResNet18 tinh chỉnh,0.817
+Mờ chuyển động (9px),ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000
+Mờ lấy nét (σ=1.5),GLCM+LBP+HOG + SVM (cơ sở),0.339
+Mờ lấy nét (σ=1.5),ResNet18 tinh chỉnh,0.572
+Mờ lấy nét (σ=1.5),ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000
+Tối (×0.5),GLCM+LBP+HOG + SVM (cơ sở),0.800
+Tối (×0.5),ResNet18 tinh chỉnh,1.000
+Tối (×0.5),ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000
+Sáng (×1.5),GLCM+LBP+HOG + SVM (cơ sở),0.644
+Sáng (×1.5),ResNet18 tinh chỉnh,0.978
+Sáng (×1.5),ResNet18 + tăng cường mô phỏng điều kiện chụp,0.989
+Tương phản thấp (×0.5),GLCM+LBP+HOG + SVM (cơ sở),0.772
+Tương phản thấp (×0.5),ResNet18 tinh chỉnh,1.000
+Tương phản thấp (×0.5),ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000
+Nhiễu cảm biến (σ=20),GLCM+LBP+HOG + SVM (cơ sở),0.356
+Nhiễu cảm biến (σ=20),ResNet18 tinh chỉnh,0.533
+Nhiễu cảm biến (σ=20),ResNet18 + tăng cường mô phỏng điều kiện chụp,0.989
+Nén JPEG (q=15),GLCM+LBP+HOG + SVM (cơ sở),0.561
+Nén JPEG (q=15),ResNet18 tinh chỉnh,0.628
+Nén JPEG (q=15),ResNet18 + tăng cường mô phỏng điều kiện chụp,0.994
+[chưa gặp] Mờ chuyển động mạnh (15px),GLCM+LBP+HOG + SVM (cơ sở),0.167
+[chưa gặp] Mờ chuyển động mạnh (15px),ResNet18 tinh chỉnh,0.478
+[chưa gặp] Mờ chuyển động mạnh (15px),ResNet18 + tăng cường mô phỏng điều kiện chụp,0.983
+[chưa gặp] Chiếu sáng không đều,GLCM+LBP+HOG + SVM (cơ sở),0.872
+[chưa gặp] Chiếu sáng không đều,ResNet18 tinh chỉnh,1.000
+[chưa gặp] Chiếu sáng không đều,ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000
+[chưa gặp] Giảm độ phân giải ×0.4,GLCM+LBP+HOG + SVM (cơ sở),0.350
+[chưa gặp] Giảm độ phân giải ×0.4,ResNet18 tinh chỉnh,0.622
+[chưa gặp] Giảm độ phân giải ×0.4,ResNet18 + tăng cường mô phỏng điều kiện chụp,1.000

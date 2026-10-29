@@ -1,0 +1,15 @@
+X-SDD – 3. ResNet50 (ImageNet, cố định) + LogReg
+
+                        precision    recall  f1-score   support
+
+  Vết in trục cán tinh      1.000     1.000     1.000        41
+           Tro vảy sắt      1.000     0.958     0.979        24
+     Vảy ôxit (hệ tấm)      1.000     0.846     0.917        13
+Vảy ôxit (do nhiệt độ)      1.000     1.000     1.000        41
+            Vảy sắt đỏ      0.988     1.000     0.994        79
+           Tạp chất xỉ      0.960     1.000     0.980        48
+       Vết xước bề mặt      1.000     1.000     1.000        27
+
+              accuracy                          0.989       273
+             macro avg      0.992     0.972     0.981       273
+          weighted avg      0.989     0.989     0.989       273

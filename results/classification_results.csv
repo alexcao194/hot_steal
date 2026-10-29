@@ -1,0 +1,9 @@
+dataset,method,accuracy,macro_F1,ms_per_image
+NEU,1. GLCM+LBP+HOG + SVM (cơ sở),0.9667,0.9668,6.2043
+NEU,2. GLCM+LBP+HOG + kNN,0.9000,0.8989,6.1004
+NEU,"3. ResNet50 (ImageNet, cố định) + LogReg",1.0000,1.0000,7.3752
+NEU,4. ResNet18 tinh chỉnh + tăng cường dữ liệu,1.0000,1.0000,6.6308
+X-SDD,1. GLCM+LBP+HOG + SVM (cơ sở),0.8828,0.8580,5.9481
+X-SDD,2. GLCM+LBP+HOG + kNN,0.6484,0.5972,6.0292
+X-SDD,"3. ResNet50 (ImageNet, cố định) + LogReg",0.9890,0.9812,7.7731
+X-SDD,4. ResNet18 tinh chỉnh + tăng cường dữ liệu,0.9963,0.9917,19.0701

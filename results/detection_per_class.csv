@@ -1,0 +1,13 @@
+model,class,AP50,AP50_95
+yolov8n,crazing,0.377,0.152
+yolov8n,inclusion,0.844,0.478
+yolov8n,patches,0.931,0.623
+yolov8n,pitted_surface,0.755,0.466
+yolov8n,rolled-in_scale,0.605,0.284
+yolov8n,scratches,0.845,0.446
+yolov8s,crazing,0.334,0.135
+yolov8s,inclusion,0.835,0.471
+yolov8s,patches,0.921,0.617
+yolov8s,pitted_surface,0.785,0.476
+yolov8s,rolled-in_scale,0.614,0.278
+yolov8s,scratches,0.836,0.461
